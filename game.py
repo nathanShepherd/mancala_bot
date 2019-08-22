@@ -2,8 +2,8 @@ import pygame
 import math
 pygame.init()
 
-K = (0, 0, 0); W = (125, 255, 100)
-R =(255,80,80); G =(70,255,100); B =(100,179,255)
+K = (0, 0, 0); W = (100, 255, 255)
+R =(204,0,204); G =(70,255,70); B =(153,0,76)
 COLS = [W, R, G, B, R, W, G, B, G, W, R, B, G]*3
 size = (700, 500)
 display = pygame.display.set_mode(size)
@@ -51,7 +51,10 @@ def draw_board():
 
     sprite(5, 1)
     sprite(3, 2)
-    sprite(8, 3)
+    sprite(4, 3)
+    sprite(10, 4)
+    sprite(20, 5)
+    sprite(6, 6)
     sprite(36, 7)
 
 
